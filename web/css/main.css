@@ -3,6 +3,21 @@ body {
     font-family: Open Sans, sans-serif;
     color: #798896;
 }
+header {
+    height:200px;
+    width:1100px;
+    margin:auto;
+}
+#content {
+    width: 1100px;
+    height: 1000px;
+    background-color: #222F4F;
+    opacity: 0.9;
+    margin:auto;
+}
+
+
+
 /*
 Code snippet by maridlcrmn for Bootsnipp.com
 Follow me on Twitter @maridlcrmn
