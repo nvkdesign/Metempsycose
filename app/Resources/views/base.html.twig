@@ -16,8 +16,12 @@
 <body>
 {% block body %}{% endblock %}
 {% block javascripts %}
-    {% javascripts '@WebsiteBundle/Resources/public/js/*' %}
-    <script src="{{ asset_url }}"></script>
+    {% javascripts
+    '@WebsiteBundle/Resources/public/js/jquery.min.js'
+    '@WebsiteBundle/Resources/public/js/bootstrap.min.js'
+    '@WebsiteBundle/Resources/public/js/script.js'
+    %}
+        <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
 {% endblock %}
 </body>
